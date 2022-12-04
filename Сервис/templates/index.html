@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Main page!</title>
+    </head>
+    <body>
+    <p> Заходите в <a href="/predicted">список обработанных CSV-файлов </a> </p>
+        <p> или </p>
+        <p>Создайте новые предсказания на модели</p>
+
+    <p>Загрузите JSON или CSV-файл</p>
+
+        <form action="/predict_item" method="post" enctype="multipart/form-data">
+            Загрузите JSON (Тык 1): <br>
+            <input type="file" name="JSON_file"> <br><br>
+            <button type="submit">Тык 2</button> <br><br>
+        </form>
+        <form action="/predict_items" method="post" enctype="multipart/form-data">
+            Введите новое название файла (Тык 1): <br>
+            <input type="text" name="name"> <br>
+            Загрузите CSV-файл (Тык 2): <br>
+            <input type="file" name="CSV_file"> <br><br>
+            <button type="submit">Тык 3</button>
+        </form>
+    </body>
+</html>

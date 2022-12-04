@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title> List of csv files with predictions </title>
+    </head>
+    <body>
+        <p>Ниже представлены csv-файлы с предсказанной ценой</p>
+        <ol>
+            {% for prediction in predictions %}
+            <li>
+                <a href="{{ url_for('static', path='/predicted/' + prediction)}}">
+                    {{ prediction }}
+                </a>
+            </li>
+            {% endfor %}
+        </ol>
+    </body>
+</html>

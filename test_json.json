@@ -1,0 +1,15 @@
+{
+  "name": "Renault KWID Climber 1.0 MT BSIV",
+  "year": 2019,
+  "selling_price": 385480,
+  "km_driven": 35000,
+  "fuel": "Petrol",
+  "seller_type": "Individual",
+  "transmission": "Manual",
+  "owner": "First Owner",
+  "mileage": "23.01 kmpl",
+  "engine": "999 CC",
+  "max_power": "67 bhp",
+  "torque": "91Nm@ 4250rpm",
+  "seats": 5
+}
